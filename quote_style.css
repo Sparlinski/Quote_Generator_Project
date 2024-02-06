@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(Images/image1_joshua-earle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin: 30px 30px;
+    width: 650px;
+    height: 400px;
+    flex-shrink: 2;
+}
+
+.header {
+    font-size: 1.2rem;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: rgba(116, 97, 71, 0.613);
+    padding: 5px 120px;
+    margin: 40px auto;
+    border-radius: 20px;
+    flex-shrink: 1;
+    min-width: 465px;
+}
+
+.main-content {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 40px 10px 40px;
+    box-shadow: 0 0 10px;
+}
+
+.box-A {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.box-B {
+    height: 70px;
+}
+
+.quote {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.person {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: rgb(116, 97, 71);
+    text-transform: uppercase;
+}
+
+.identity {
+    font-size: .9rem;
+    font-style: italic;
+    color: rgb(116, 97, 71);
+}
+
+.button-area button { 
+    background-color: rgb(116, 97, 71);
+    color: white;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.button-area button:active {
+    background-color: rgb(69, 122, 151);
+}
